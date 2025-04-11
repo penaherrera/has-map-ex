@@ -8,8 +8,9 @@ namespace has_map_ex
         {
             InitializeComponent();
 
-            usuarios.Add("1", new Usuario("1", "Mac Miller", "mac@example.com"));
-            usuarios.Add("2", new Usuario("2", "Cliff Burton", "cliff@example.com"));
+            usuarios.Add("1", new Usuario("1", "Carlos Peña", "cpena@ejemplo.com"));
+            usuarios.Add("2", new Usuario("2", "Katherine Garcia", "kgarcia@ejemplo.com"));
+            usuarios.Add("3", new Usuario("3", "Erick Mendez", "emendez@ejemplo.com"));
 
             MessageBox.Show("Datos iniciales cargados");
         }
